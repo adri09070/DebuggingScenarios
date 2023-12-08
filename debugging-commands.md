@@ -149,3 +149,11 @@ SindarinDebuggerTest new methodNonLocalReturn
 ### Step to method entry
 
 TODO
+
+### Skip / SkipUpTo
+
+TODO
+
+### Jump to caret
+
+TODO
