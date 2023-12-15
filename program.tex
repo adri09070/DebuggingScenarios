@@ -1,0 +1,113 @@
+\documentclass[manuscript, language=english, language=french, nonacm]{acmart}
+
+\begin{document}
+
+\title{Le Debugger Pharo : utilisation de base et avancée\\
+Centre Inria de l'Université de Lille}
+\author{Steven Costiou}
+\email{steven.costiou@inria.fr}
+\author{Valentin Bourcier}
+\email{valentin.bourcier@inria.fr}
+\author{Adrien Vanègue}
+\email{adrien.vanegue@inria.fr}
+
+
+
+
+\begin{abstract}
+    
+Cette formation sur le debugger Pharo vise à fournir une compréhension approfondie de l'utilisation et des fonctionnalités de base et avancées du debugger.
+La formation dure 6 heures.
+Le premier objectif est de couvrir de manière solide les outils du quotidien, dans leur utilisation et leur configuration.
+Le second objectif de la formation est de donner les pleins pouvoirs sur l'environnement de debugging.
+D'une part, il s'agit de se sensibiliser aux outils spécifiques à certains scénarios ainsi qu'aux outils avancés (comme le time-traveling debugger).
+D'autre part, la formation introduit les capacités d'extension du debugger pour adapter les outils à des domaines ou des problèmes spécifiques.
+Finalement, un temps d'échange permettra un retour sur la formation elle même et sur les outils présentés.
+
+
+
+\end{abstract}
+
+\maketitle
+
+%\newpage
+\section{Objectifs de la formation} 
+
+\section{Le debugger : outils du quotidien (45 minutes)}
+ 
+\subsection{Présentation de la structure du debugger}
+
+\begin{enumerate}
+    \item La pile d'appel et ses options
+    \item Les commandes et leurs extensions       
+    \item L'éditeur de code
+    \item L'inspecteur
+\end{enumerate}
+
+\subsection{Outils de base}
+
+\begin{enumerate}
+    \item Les points d'arrêt
+    \item Les \textit{Debug Points} (Pharo12)        
+    \item Génération d'assertions (Pharo 12)
+\end{enumerate}
+
+\subsection{Configuration du debugger}
+
+\begin{enumerate}
+    \item Options générales
+    \item Debugger le debugger
+    \item Les extensions
+    \item Choisir un debugger
+\end{enumerate}
+
+\section{Object-centric debugging (2 heures)}
+
+\begin{enumerate}
+    \item Présentation de la méthode
+    \item Presentation de l'outil : les points d'arrêt centrés objet
+    \item Expérience empirique (participation facultative)
+\end{enumerate}
+
+\section*{Pause déjeuner}
+
+\newpage
+\section{Outils avancés I : Chest (30 minutes)}
+
+\textit{Stockez et accédez à vos objets à volonté !}
+
+\begin{enumerate}
+    \item Présentation de l'outil
+    \item Illustration et démonstration sur des scénarios types
+\end{enumerate}
+
+\section{Commandes avancées (1h)}
+
+\begin{enumerate}
+    \item Présentation des commandes avec exemples
+    \item Création de vos propres commandes
+    \item Tutoriel: création d'une commande avancée pour sauter jusqu'au prochain appel d'un service dans un composant Molecule
+\end{enumerate}
+
+
+\section{Outils avancés II : Seeker (30 minutes)}
+
+\textit{Retour vers le futur, ou peut-être le passé, de toutes façons on peut faire les deux² !}
+
+\begin{enumerate}
+    \item Présentation et démonstration du \textit{Time-Traveling Debugger}
+    \item Présentation et démonstration des \textit{Time-Traveling Queries}
+\end{enumerate}
+
+
+\section{Étendre le debugger avec des outils dédiés (1 heure)}
+
+\begin{enumerate}
+    \item Présentation du mécanisme d'extension (illustration, demo)
+    \item Tutoriel: création d'une extension pour inspecter les interfaces des composants Molecule dans le debugger et pour y configurer des points d'arrêt
+\end{enumerate}
+
+
+\section{Temps d'échange et discussion}
+
+\end{document}
